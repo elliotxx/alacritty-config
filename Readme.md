@@ -1,7 +1,7 @@
 # alacritty
 My [alacritty](https://github.com/alacritty/alacritty) configuration. It looks like this after being configured. 👇
 
-![](./assets/screenshot-1.jpg)
+![](./assets/screenshot-2.jpg)
 
 ## Usage
 ```shell
