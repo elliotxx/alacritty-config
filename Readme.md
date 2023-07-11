@@ -1,5 +1,7 @@
 # alacritty
-My alacritty configuration
+My [alacritty](https://github.com/alacritty/alacritty) configuration. It looks like this after being configured. 👇
+
+![](./assets/screenshot-1.jpg)
 
 ## Usage
 ```shell

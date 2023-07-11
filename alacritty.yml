@@ -1,5 +1,4 @@
 # NOTE:https://github.com/alacritty/alacritty/blob/master/extra/man/alacritty.5.scd github config url
-# import
 import:
   - ~/.config/alacritty/themes/themes/catppuccin.yaml
   - ~/.config/alacritty/fonts.yml
