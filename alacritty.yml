@@ -132,10 +132,10 @@ hints:
       post_processing: true
       mouse:
         enabled: true
-        mods: Control|Shift
+        mods: Control|Command
       binding:
         key: U
-        mods: Control|Shift
+        mods: Control|Command
 
 selection:
   semantic_escape_chars: ',│`|:"'' ()[]{}<>'
