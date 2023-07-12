@@ -15,13 +15,13 @@ env:
 window:
   # Window dimensions in character columns and lines
   # (changes require restart)
-  dimensions:
-    columns: 120
-    lines: 35
+  # dimensions:
+  #   columns: 120
+  #   lines: 35
 
   padding:
-    x: 10
-    y: 10
+    x: 0
+    y: 0
 
   # Spread additional padding evenly around the terminal content.
   dynamic_padding: true
@@ -34,7 +34,16 @@ window:
   opacity: 0.90
 
   option_as_alt: Both
-  startup_mode: Windowed
+  # Startup Mode (changes require restart)
+  #
+  # Values for `startup_mode`:
+  #   - Windowed
+  #   - Maximized
+  #   - Fullscreen
+  #
+  # Values for `startup_mode` (macOS only):
+  #   - SimpleFullscreen
+  startup_mode: Maximized
   resize_increments: true
 
 # Scrolling
@@ -89,6 +98,12 @@ cursor:
 #       - --login
 #       - -c
 #       - "tmux new-session -A -D -s main"
+shell:
+  program: /bin/zsh
+  args:
+    - -l
+    - -c
+    - "tmux"
 
 mouse:
   # Click settings
@@ -232,8 +247,8 @@ key_bindings:
   - { key: F10, mods: Alt, chars: "\x1b[21;6~" }
   - { key: F11, mods: Alt, chars: "\x1b[23;6~" }
   - { key: F12, mods: Alt, chars: "\x1b[24;6~" }
-  - { key: F1, mods: Command, chars: "\x1b[1;3P" }
   - { key: F2, mods: Command, chars: "\x1b[1;3Q" }
+  - { key: F1, mods: Command, chars: "\x1b[1;3P" }
   - { key: F3, mods: Command, chars: "\x1b[1;3R" }
   - { key: F4, mods: Command, chars: "\x1b[1;3S" }
   - { key: F5, mods: Command, chars: "\x1b[15;3~" }
